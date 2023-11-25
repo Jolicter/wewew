@@ -1,0 +1,117 @@
+@keyframes slideme {
+  0% {
+    left: -30px;
+    margin-left: 0px;
+  }
+  30% {
+    left: 110%;
+    margin-left: 80px;
+  }
+  100% {
+    left: 110%;
+    margin-left: 80px;
+  }
+}
+
+.btn-new {
+  overflow: hidden;
+  position: relative;
+}
+
+.btn-new:after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 200px;
+  margin-left: 60px;
+  background: #fff;
+  opacity: 0.5;
+  position: absolute;
+  left: -40px;
+  top: -100px;
+  z-index: 1;
+  transform: rotate(45deg);
+  transition: all 0.1s;
+  animation-name: slideme;
+  animation-duration: 3s;
+  animation-delay: 0.05s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+img {
+  width: 300px;
+  height: 200px;
+  margin-left:  20px;
+  padding: 4px;
+  border: 1px solid black;
+}
+
+.img {
+  width: 400px;
+  height: 300px;
+  margin-left:  20px;
+  padding: 4px;
+  border: 1px solid black;
+  display: inline;
+}
+.tex{
+  display: inline-block;
+}
+span {
+  display: inline-block;
+}
+body.Геоэколог {
+  background: linear-gradient(120deg, #46B92D 12%, #129BB9 100%);
+}
+body.tehno {
+  background: linear-gradient(120deg, #b7d3b1 12%, #129BB9 100%);
+}
+.text {
+  padding-left: 20px;
+}
+.pro {
+  display: inline;
+}
+h3 {
+  padding-left: 20px;
+}
+h1.teh {
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.str {
+  margin-left: 20px;
+  margin-right: 34px;
+}
+.strr{
+  margin-top: 40px;
+}
+.nav {
+  padding-right: 10px;
+}
+
+.navbar {
+  display: flex;
+
+}
+
+.cover-container {
+  background-color: rgb(139, 193, 255);
+}
+.wewe{
+  height: 45px;
+  width: 45px;
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  float: left;
+  
+}
+.my-button2 {
+  width: 100px;
+}
+table {
+  margin-left: 20px;
+  
+}
